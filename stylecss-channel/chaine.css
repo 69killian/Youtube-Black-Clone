@@ -1,0 +1,416 @@
+
+.bannière {
+  display: flex;
+  margin-left: 15px;
+  position: relative;
+  right: 0;
+  left: 0;
+  height: 210px;
+}
+
+.stockholm {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  margin-left: 15px;
+  position: absolute;
+}
+
+.image-nom-abos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 100px;
+}
+
+.left-section-channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel-big-picture {
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  margin-right: 25px;
+}
+
+.text-section-channel-name {
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 23px;
+}
+
+.text-section-channel-pseudo-and-sub {
+  font-family: Roboto, Arial;
+  color: rgb(168, 168, 168);
+  font-size: 14px;
+}
+
+.right-section-channel button {
+  padding: 6px 4px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.right-section-channel:hover button {
+  background-color: rgb(67, 67, 67);
+}
+
+.right-section-channel img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.right-section-channel .more {
+  height: 25px;
+  width: 25px;
+}
+
+.container-text-section-channel-name {
+  position: relative;
+}
+
+/**Onglets de la chaine**/
+
+.onglets-chaine {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  right: 0;
+  left: 0;
+  white-space: nowrap;
+  border-bottom: 0.02px solid rgb(67, 67, 67);
+}
+
+.onglets-chaine div {
+  color: rgb(163, 162, 162);
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 14.5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+/**Partie responsive des Onglets de la chaine (baisse de taille et d'espace de la page)**/
+
+@media (max-width: 1800px) {
+  .onglets-chaine div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .onglets-chaine div {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/**Fin de la Partie responsive des Onglets de la chaine**/
+
+
+.onglets-chaine div:hover {
+  color: white;
+}
+
+.onglets-chaine p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.accueil-onglet-chaine {
+  border-bottom: 3px solid rgb(126, 126, 126);
+  display: flex;
+  justify-content: center;
+}
+
+.onglets-chaine img {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.onglets-chaine button {
+  background-color: rgb(14, 14, 14);
+  border: none;
+  margin-right: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+/**Fin des Onglets de la chaine**/
+
+
+/** Vidéo principale de la chaine youtube **/
+
+.principal-video {
+  display: flex;
+  border-bottom: 0.02px solid rgb(67, 67, 67);
+  margin: 20px 80px;
+}
+
+
+.principal-video img {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+
+
+.title-principal-video {
+  color: white;
+  font-family: Robot, Arial;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.stats-principal-video {
+  margin-bottom: 10px;
+  color: rgb(163, 162, 162);
+  font-family: Roboto, Arial;
+  font-size: 12px;
+}
+
+.description-principal-video {
+  color: rgb(163, 162, 162);
+  font-family: Robot, Arial;
+  font-size: 12px;
+  width: 580px;
+}
+
+.miniature-principal-video-container {
+  position: relative;
+}
+
+.miniature-principal-video-container div {
+  position: absolute;
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.658);
+  font-size: 13px;
+  padding: 3px 4px;
+  border-radius: 5px;
+  bottom: 27px;
+  right: 20px;
+}
+
+
+/** Fin de la Vidéo principale de la chaine youtube **/
+
+
+
+/** Autres vidéos de la chaine **/
+
+.autres-videos-de-la-chaine {
+  display: flex;
+  border-bottom: 0.02px solid rgb(67, 67, 67);
+  margin: 20px 80px;
+  justify-content: center;
+}
+
+.autres-videos-de-la-chaine img {
+  margin-bottom: 4px;
+  border-radius: 7px;
+  margin-right: 5px;
+  width: 210px;
+  height: 118px;
+}
+
+.titre-autres-videos-de-la-chaine {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 14.5px;
+  color: white;
+  width: 200px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.autres-videos-de-la-chaine .stats-principal-video {
+  margin-bottom: 50px;
+}
+
+.lire-vidéo {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.lire-vidéo div, .lire-vidéo button {
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.lire-vidéo button {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  background-color: rgb(14, 14, 14);
+  padding: 8px 12px;
+  border-radius: 25px;
+  border: none;
+}
+
+.lire-vidéo button:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+.lire-vidéo div {
+  margin-right: 6px;
+}
+
+.lire-vidéo img {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.container-autres-videos-de-la-chaine, .container-text-section-channel-name {
+  position: relative;
+}
+
+.tooltip-text-section-channel {
+  position: absolute;
+  color:white;
+  background-color: rgba(90, 90, 90, 0.864);
+  font-family: Roboto, Arial;
+  font-size: 11.5px;
+  padding: 10px 8px;
+  border-radius: 5px;
+  top: -50px;
+  right: 30px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.container-text-section-channel-name:hover .tooltip-text-section-channel {
+  opacity: 1;
+}
+
+.timer-tooltip-info {
+  position: absolute;
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.658);
+  font-size: 13px;
+  padding: 3px 4px;
+  border-radius: 5px;
+  bottom: 10px;
+  right: 10px;
+}
+
+/** Fin des autres vidéos de la chaine **/
+
+
+
+/** Partie Shorts **/
+
+
+.div-shorts-logo-channel {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  margin: 40px 0px 40px 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+.autres-videos-de-la-chaine-shorts img {
+  margin-bottom: 4px;
+  border-radius: 7px;
+  margin-right: 5px;
+  width: 210px;
+  height: 302px;
+  object-fit: cover;
+}
+
+.autres-videos-de-la-chaine-shorts {
+  display: flex;
+  margin: 20px 80px;
+  justify-content: center;
+}
+
+/** Fin de la Partie Shorts **/
+
+
+
+
+/** Bouttons de mise en ligne et populaire **/
+
+.bouttons-tous-reste-container {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.tous {
+  margin-left: 15px;
+  white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
+  font-family: Roboto, Arial;
+  padding: 7px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reste {
+  margin-left: 15px;
+  white-space: nowrap;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  font-family: Roboto, Arial;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.1s;
+}
+
+.reste:hover {
+  background-color: rgb(69, 69, 69);
+}
+
+
+/** Fin des Bouttons de mise en ligne et populaire **/
+
+.pas-de-chaine {
+  display: flex;
+  font-family: Roboto, Arial;
+  color: white;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 17px;
+}

@@ -1,0 +1,48 @@
+.autres-videos-de-la-chaine {
+  border: none;
+  justify-content: start;
+}
+
+.timer-tooltip-info {
+  top: 0;
+  right: 5px;
+  bottom: 7.5px;
+  left: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.title {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  color: white;
+  margin: 25px 0 15px 80px;
+}
+
+.title-trier {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  color: white;
+  margin-left: 5px;
+}
+
+.trier-title {
+  display: flex;
+  align-items: center;
+}
+
+.trier-title img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}

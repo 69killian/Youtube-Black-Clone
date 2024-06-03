@@ -1,0 +1,251 @@
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-left: 5px;
+  border-bottom: 4px solid rgb(51, 51, 51);
+}
+
+@media (max-width: 1100px) {
+  .video-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 1500px) {
+  .video-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 2300px) {
+  .video-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 2800px) {
+  .video-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.miniature {
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 0;
+  z-index: -100;
+}
+
+.video-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.channel-picture {
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+}
+
+.text-container {
+  font-family: roboto, arial;
+  color: white;
+  margin-top: 0;
+}
+
+.text1 {
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  margin: 0;
+}
+
+.text2, .text3 {
+  color: rgb(141, 141, 141);
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.text2:hover {
+  color: rgb(222, 222, 222);
+  cursor: pointer;
+}
+
+.video-info {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+}
+
+
+
+/**Video shorts container**/
+
+.video-shorts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 0px;
+  row-gap: 40px;
+  margin-left: 5px;
+  border-bottom: 4px solid rgb(51, 51, 51);
+}
+
+@media (min-width: 1500px) {
+  .video-shorts-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1800px) {
+  .video-shorts-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  }
+}
+
+@media (min-width: 2300px) {
+  .video-shorts-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
+
+}
+
+@media (min-width: 2500px) {
+  .video-shorts-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
+
+}
+
+.miniature-short {
+  border-radius: 15px;
+  width: 80%;
+  margin-bottom: 0;
+  position: relative;
+  z-index: -100;
+}
+
+.div-shorts-logo {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto, Arial;
+  margin: 40px 0px 40px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.shorts-logo {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+
+/**Section des tooltip des noms chaines youtube**/
+
+.channel-name-tooltip-container {
+  position: relative;
+  width: 100px;
+}
+
+.channel-name-tooltip, .tooltip-text-section-channel-name {
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.805);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: roboto, arial;
+  font-size: 12px;
+  left: 0px;
+  top: -70px;
+  pointer-events: none;
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.channel-name-tooltip-container:hover .channel-name-tooltip {
+  opacity: 1;
+}
+
+
+/**Section des tooltip des photos des chaines youtube**/
+
+.channel-tooltip-container {
+  position: relative;
+  z-index: 10000;
+  height: 38px;
+}
+
+.channel-tooltip {
+  position: absolute;
+  display: flex;
+  background-color: rgb(14, 14, 14);
+  border-radius: 8px;
+  align-items: center;
+  width: 180px;
+  padding: 8px 15px;
+  font-family: Roboto, Arial;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.614);
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.channel-tooltip img {
+  height: 45px;
+  width: 45px;
+}
+
+.channel-tooltip-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.channel-tooltip-text .text-tooltip1 {
+ font-weight: 500;
+ color: white;
+}
+
+.channel-tooltip-text .text-tooltip2 {
+  font-size: 14px;
+  color: rgb(103, 103, 103);
+}
+
+.channel-tooltip-container:hover .channel-tooltip {
+opacity: 1;
+}
+
+
+/**Section Links no style**/
+
+.nostyle-link {
+  text-decoration: none;
+}
+
+/** Section des tooltip timer vidéo **/
+
+.miniature-container {
+  position: relative;
+}
+
+.miniature-container div {
+  position: absolute;
+  font-family: Roboto, Arial;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.658);
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 5px;
+  bottom: 8px;
+  right: 8px;
+ }

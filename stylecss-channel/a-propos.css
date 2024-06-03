@@ -1,0 +1,87 @@
+.container-a-propos {
+  display: flex;
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.titres-gras {
+  font-size: 16px;
+}
+
+.section-gauche-description {
+  margin-right: 420px;
+}
+
+
+.section-droite-description .border-container {
+  border-bottom: solid 0.1px rgb(47, 47, 47);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.section-droite-description .titres-gras {
+  border-bottom: solid 0.1px rgb(47, 47, 47);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.border-container {
+  border-bottom: solid 0.1px rgb(47, 47, 47);
+  padding-bottom: 35px;
+}
+
+.section-gauche-description p {
+  margin-bottom: 25px;
+}
+
+.gray-text {
+  display: flex;
+  align-items: center;
+}
+
+.gray-text p {
+  color: rgb(156, 156, 156);
+  font-size: 12px;
+  margin-right: 25px;
+}
+
+.gray-text-space {
+  display: flex;
+}
+
+.gray-text-space p {
+  color: rgb(156, 156, 156);
+  font-size: 12px;
+  margin-right: 280px;
+}
+
+.gray-text button {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 25px;
+  margin-top: -12px;
+  cursor: pointer;
+}
+
+.gray-text button:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+.blue-text {
+  display: flex;
+}
+
+.blue-text p {
+  color: rgb(0, 179, 255);
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 250px;
+}

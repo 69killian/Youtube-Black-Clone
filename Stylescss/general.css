@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(14, 14, 14);
+}
+
+@media (max-width: 1299px){
+  body {
+    padding-left: 72px;
+  }
+}

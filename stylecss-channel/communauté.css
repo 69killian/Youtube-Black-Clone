@@ -1,0 +1,72 @@
+.post-community {
+  border: 1px solid rgb(44, 44, 44);
+  width: 750px;
+  margin: 50px 0 0 50px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.section-du-haut {
+  display: flex;
+}
+
+.big-container-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.container-text {
+  font-family: Roboto, Arial;
+  display: flex;
+}
+
+.text-title1 {
+  font-weight: 500;
+  color: white;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.text-title2 {
+ color: rgb(156, 156, 156);
+ font-size: 12px;
+}
+
+.text-title3 {
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.community-profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+
+.hola-image {
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+
+.icons-community {
+  margin-left: 55px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icons-community img {
+  height: 22px;
+  width: 22px;
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.icons-community img:hover {
+background-color: rgb(66, 66, 66);
+}
+

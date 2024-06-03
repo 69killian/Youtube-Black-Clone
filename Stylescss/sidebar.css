@@ -1,0 +1,422 @@
+
+/**Section 1 navbar**/
+
+.sidebar-section1 {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(14, 14, 14);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 66px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/**Partie Responsive Section 1 navbar**/
+
+@media (min-width: 1300px) {
+  body {
+    padding-left: 200px;
+  }
+  .sidebar-section1 {
+    width: 200px;
+    bottom: 660px;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: fixed;
+  }
+
+  .sidebar-section1 div {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    font-size: 14px;
+    align-items: center;
+  }
+
+.sidebar-button1:hover, .sidebar-button2:hover,
+.sidebar-button3:hover, .sidebar-button4:hover {
+  height: 40px;
+  width: 190px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.sidebar-section1 img {
+  margin-right: 20px;
+  margin-left: 8px;
+}
+
+.short-icon {
+  margin-right: 18px;
+  margin-left: 8px;
+}
+}
+
+@media (min-width: 3000px) {
+  .sidebar-section1 {
+    bottom: 1100px;
+  }
+
+}
+
+.sidebar-button1, .sidebar-button2,
+.sidebar-button3, .sidebar-button4 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 65px;
+  border-radius: 15px;
+}
+
+.sidebar-button1:hover, .sidebar-button2:hover,
+.sidebar-button3:hover, .sidebar-button4:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+.img-sec1 {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+
+.short-icon {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.link-sidebar {
+  color: white;
+  text-decoration: none;
+}
+
+
+/** Fin de la Section 1 navbar**/
+
+
+
+
+
+
+
+/** Section 2 navbar**/
+
+
+.sidebar-section2 {
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(14, 14, 14);
+  position: fixed;
+  height: 205px;
+  left: 0;
+  top: 231.5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(52, 52, 52);
+  border-top: 1px solid rgb(52, 52, 52);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.short-icon1 {
+  height: 25px;
+  width: 25px;
+}
+
+
+.short-icon2 {
+  height: 25px;
+  width: 25px;
+}
+
+.short-icon3 {
+  height: 22px;
+  width: 22px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.sidebar-section2 img {
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+.sidebar-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 190px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.sidebar-button:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+/**Partie Responsive Section 2 navbar**/
+
+@media (min-width: 1300px) {
+  .sidebar-section2 {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1299px) {
+  .sidebar-section2 {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/** Fin de la Section 2 navbar**/
+
+
+
+
+/** Section 3 navbar**/
+
+.titre-section3 {
+  margin: 15px;
+  font-size: 16px;
+}
+
+.sidebar-section3 {
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(14, 14, 14);
+  position: fixed;
+  height: 380px;
+  left: 0;
+  top: 438.5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(52, 52, 52);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.text-space-sidebar3 {
+  margin-right: 5px;
+  white-space: nowrap;
+}
+
+.text-space-sidebar31 {
+  margin-right: 40px;
+  white-space: nowrap;
+}
+
+.text-space-sidebar32 {
+  margin-right: 49px;
+  white-space: nowrap;
+}
+
+.text-space-sidebar33 {
+  margin-right: 2px;
+  white-space: nowrap;
+}
+
+.text-space-sidebar34 {
+  margin-right: 42px;
+  white-space: nowrap;
+}
+
+.text-space-sidebar35 {
+  margin-right: 31px;
+  white-space: nowrap;
+}
+
+.text-space-sidebar36 {
+  margin-right: 59px;
+  white-space: nowrap;
+}
+
+.short-iconred {
+  height: 22px;
+  width: 22px;
+}
+
+.sidebar-section3 .short-icon1 {
+  height: 32px;
+  width: 32px;
+  border-radius: 25px;
+}
+
+.sidebar-section3 img {
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+.short-iconplus {
+  height: 22px;
+  width: 22px;
+
+  object-fit: cover;
+  margin-bottom: -5px;
+}
+
+.sidebar-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 190px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.sidebar-button:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+/**Partie Responsive Section 3 navbar**/
+
+@media (min-width: 1300px) {
+  .sidebar-section3 {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1299px) {
+  .sidebar-section3 {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+
+
+/** Fin de la Section 3 navbar**/
+
+
+
+
+/** Section 4 navbar**/
+
+
+
+.sidebar-section4 {
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(14, 14, 14);
+  position: fixed;
+  bottom: 85px;
+  height: 415px;
+  left: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(52, 52, 52);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.short-icon12 {
+  height: 22px;
+  width: 22px;
+}
+
+.short-iconmusic {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  position: relative;
+  left: -2px;
+}
+
+.short-iconmovie {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  left: -5px;
+}
+
+.text-space-sidebar323 {
+  margin-left: -8px;
+}
+
+.text-space-sidebar353{
+  margin-left: -10px;
+  white-space: nowrap;
+}
+
+.short-iconculture {
+ height: 32px;
+ width: 32px;
+ position: relative;
+ left: -5px;
+}
+
+/**Partie Responsive Section 4 navbar**/
+
+@media (min-width: 1300px) {
+  .sidebar-section4 {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1299px) {
+  .sidebar-section4 {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media (min-height: 1300px) {
+  .sidebar-section4 {
+    opacity: 1;
+  }
+}
+
+@media (max-height: 1299px) {
+  .sidebar-section4 {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/** Fin de la Section 4 navbar**/
+
+
+
+
+/** Section 5 navbar**/
+
+
+.sidebar-section5 {
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 14px;
+  white-space: nowrap;
+  background-color: rgb(14, 14, 14);
+  position: fixed;
+  bottom: 0px;
+  height: 80px;
+  left: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+}
